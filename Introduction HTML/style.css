@@ -1,0 +1,133 @@
+html {
+    font-family: 'Inter', sans-serif;
+}
+body {
+    margin: 0;
+    background-color: #efefef;
+}
+header {
+    background-color: #364552;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+header h1 {
+    color: orange;
+    font-size: 2.5rem;
+}
+header p {
+    color: white;
+}
+h2 {
+    margin: 2rem;
+    color: black;
+    margin: 25px 150px;
+}
+.container {
+    width: 500px;
+    margin: 0 100px;
+}
+section article{
+    background-color: #52678e;
+    color: white;
+    margin: 1rem 0rem;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0rem;
+}
+section article h3 {
+    color: white;
+    background-color: orange;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0rem;
+    text-align: center;
+}
+h4 {
+    color: orange;
+}
+section article p{
+    text-align: justify;
+}
+section article img {
+    width: 200px;
+    margin: 0 9rem; 
+    border-radius: 0.5rem;
+    padding: 0.1rem 0rem;
+    text-align: center;
+}
+section article h3, p, h4, img, ul, a, form {
+    margin: 1rem;
+}
+section article img:hover {
+    cursor: pointer;
+    box-shadow: 0 0rem 0.3rem white;
+    transition: 0.1s ease;
+}
+.enviar:hover {
+    cursor: pointer;
+}
+footer {
+    background-color: #364552;
+    color: white;
+    padding: 3rem;
+}
+.float {
+    float: right;
+}
+footer p {
+    margin: 0;
+}
+footer a {
+    transition: color 0.1s ease;
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    color: cornflowerblue;
+}
+.mapa {
+    color: white;
+    margin: 0 10rem; 
+}
+.mapa:hover {
+    transition: color 0.1s ease;
+    color: #ddd;
+}
+th {
+    color: white;
+    background-color: orange;
+}
+table {
+    margin: 0 5rem;
+    width: 300px;
+    border-collapse: collapse;
+    border-radius: 0.5rem;
+    padding: 0.1rem 0rem;
+}
+th, td {
+    padding: 5px;
+    border: solid 1px #ddd;
+    color: #364552;
+}
+tr:nth-child(even) {
+    background-color: rgb(255, 212, 131);
+}
+tr:nth-child(odd) {
+    background-color: rgb(255, 255, 255);
+}
+tfoot td {
+    background-color: rgb(255, 212, 131);
+}
+tbody tr:hover {
+    background-color: #aaa;
+    cursor: pointer;
+}
+.underimage {
+    text-align: center;
+}
+.logo {
+    position: fixed;
+    left: 800px;
+    width: 500px;
+    height: 500px;
+    
+}
+
